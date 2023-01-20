@@ -12,8 +12,8 @@ array1 = [int(i) for i in input().split()]
 m = int(input('Введите кол-во элементов второго множества: '))
 print('Введите множество: ')
 array2 = [int(i) for i in input().split()]
-print(f'Набор n:', array1)
-print(f'Набор m:', array2)
+print(f'Множество n:', array1)
+print(f'Множество m:', array2)
 
 result = set(array1) & set(array2)
 if (len(result) > 0):
